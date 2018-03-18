@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.graph {
+  width: 75%;
+  height: 50%;
+}

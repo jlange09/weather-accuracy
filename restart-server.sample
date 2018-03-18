@@ -1,0 +1,4 @@
+#!/bin/bash
+# XXX TODO Modify file names/directory paths as necessary to start your server
+$(ps -ef | grep app.py | grep -v grep | awk '{ print $2 }' | xargs kill) || true
+python ./app.py &>> ~/app.log &
