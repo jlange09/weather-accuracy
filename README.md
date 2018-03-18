@@ -9,6 +9,7 @@ Tracks observation and forecast data and plots various graphs showing accuracy
 */5 * * * * ( python ~/weather_collection.py &>> ~/weather-collection.log )
 ```
 Obviously you could launch the collection scripts and have them run a loop if that's easier.
+
 3. Copy all .sample files to a new file with the .sample removed, and modify the code at each of the TODO markers as necessary
 4. Running app.py should be the entry point for the web server.
 
